@@ -1,0 +1,51 @@
+#Sketch{
+    position: absolute;
+    top: 100px;
+    left: 25%;
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 0px auto;
+    display: flex;
+    border: 1px dashed black;
+}
+
+#Sketch div{
+    box-shadow: 0 0 0 0.1px rgba(0, 0, 0, 0.1);
+}
+
+#tools{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+#tools input{
+    background: rgba(46, 227, 107, 0.904);
+    border: dashed 0.5px gray;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;   
+    height: 30px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+body p{
+    margin-bottom: -35px;
+    margin-top: -20px;
+    box-sizing: border-box;
+}
+
+#tools input:hover{
+    background-color: rgb(86, 200, 107);
+}
+
+#tools input:active{
+    font-size: 1.05rem;
+}
